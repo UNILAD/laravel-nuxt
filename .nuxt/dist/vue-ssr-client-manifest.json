@@ -5,23 +5,23 @@
     "fonts/MaterialIcons-Regular.e79bfd8.eot",
     "fonts/MaterialIcons-Regular.570eb83.woff2",
     "fonts/MaterialIcons-Regular.a37b0c0.ttf",
-    "pages/index.6dd6b48f8d051ade0e47.js",
+    "pages/index.71f83734c3dc9d626a98.js",
     "pages/about/index.7267b15597badd1a659a.js",
     "fonts/MaterialIcons-Regular.012cf6a.woff",
     "vendor.44f0c4ecef3e3b75eada.js",
     "app.34b40906a658e37aa1de.js",
-    "manifest.3be64e48eaf1c53d2932.js",
+    "manifest.272da48d394f9d218bb7.js",
     "LICENSES",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.3be64e48eaf1c53d2932.js",
+    "manifest.272da48d394f9d218bb7.js",
     "vendor.44f0c4ecef3e3b75eada.js",
     "app.34b40906a658e37aa1de.js"
   ],
   "async": [
     "layouts/default.5fd2175be0f6501471f6.js",
-    "pages/index.6dd6b48f8d051ade0e47.js",
+    "pages/index.71f83734c3dc9d626a98.js",
     "pages/about/index.7267b15597badd1a659a.js"
   ],
   "modules": {
