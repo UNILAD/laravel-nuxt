@@ -76,7 +76,6 @@
 
         methods: {
             onSearch() {
-                console.log('dlk');
             },
 
             onInput(){
