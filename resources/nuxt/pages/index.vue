@@ -4,6 +4,7 @@
             <v-layout justify-center align-center>
                 <v-flex shrink class="text-xs-center">
                     <h1>Hello {{ name }}!</h1>
+                    <p>All dependencies install from sniffr</p>
                     <v-btn dark raised @click="$store.commit('increment')">Click me {{ $store.getters.getCounter}}
                     </v-btn>
 
