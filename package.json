@@ -1,19 +1,50 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "laravel-nuxt build",
-    "start": "laravel-nuxt dev"
-  },
-  "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "laravel-nuxt": "^1.0.0",
-    "material-design-icons-iconfont": "^3.0.3",
-    "vuetify": "^1.0.19"
-  },
-  "devDependencies": {
-    "@babel/polyfill": "^7.0.0-beta.49",
-    "node-sass": "^4.9.2",
-    "sass-loader": "^7.0.3",
-    "vue-cli-plugin-vuetify": "^0.1.6"
-  }
+    "private": true,
+    "scripts": {
+        "build": "laravel-nuxt build",
+        "start": "laravel-nuxt dev"
+    },
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "laravel-nuxt": "^1.0.0",
+        "material-design-icons-iconfont": "^3.0.3",
+        "vuetify": "^1.0.19"
+    },
+    "devDependencies": {
+        "@babel/polyfill": "^7.0.0-beta.49",
+        "node-sass": "^4.9.2",
+        "sass-loader": "^7.0.3",
+        "vue-cli-plugin-vuetify": "^0.1.6",
+        "blueimp-file-upload": "^9.21.0",
+        "bootstrap-colorpicker": "^2.5.2",
+        "bootstrap-tagsinput": "^0.7.1",
+        "browser-sync": "^2.23.7",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "corejs-typeahead": "^1.2.1",
+        "cross-env": "^5.1.4",
+        "fitvids.1.1.0": "^1.1.0",
+        "gsap": "^1.20.4",
+        "intl-tel-input": "^12.1.13",
+        "joinable": "^1.6.0",
+        "jquery-mask-plugin": "^1.14.15",
+        "jquery-resizable": "^1.0.6",
+        "jquery-ui": "^1.11.4",
+        "jquery-validation": "^1.17.0",
+        "jquery.iframe-transport": "^1.0.0",
+        "jvectormap-next": "^3.0.0",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.4",
+        "moment": "^2.22.1",
+        "nestable2": "^1.6.0",
+        "noty": "^2.1.0",
+        "popper.js": "^1.12",
+        "raphael": "^2.2.7",
+        "rickshaw": "^1.6.5",
+        "rrssb": "^1.14.0",
+        "sparkline": "^0.2.0",
+        "sweetalert": "^2.1.0",
+        "tinymce": "^4.7.11",
+        "toastr": "^2.1.4",
+        "video_background": "^1.0.2"
+    }
 }
