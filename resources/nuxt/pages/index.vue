@@ -27,7 +27,7 @@
         asyncData(context) {
             // called every time before loading the component
             return {
-                name: 'Hello kam',
+                name: 'Async data',
             }
         },
         fetch() {
