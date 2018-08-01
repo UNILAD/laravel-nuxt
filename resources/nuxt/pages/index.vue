@@ -6,7 +6,7 @@
                     <h1>Hello {{ name }}!</h1>
                     <p>All dependencies install from sniffr</p>
                     <p>Adding script into package.json from sniffr</p>
-                    <p>Change back again</p>
+                    <h2>Change back again adding hot</h2>
                     <v-btn dark raised @click="$store.commit('increment')">Click me {{ $store.getters.getCounter}}
                     </v-btn>
 
