@@ -6,6 +6,8 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto, assumenda doloribus dolorum fugiat in, molestiae nostrum possimus quo sequi sunt voluptas! Aliquam cupiditate dolor eligendi nemo nobis quas sit?</p>
                 <p>Change back is again.</p>
                 <v-btn dark raised @click="$store.commit('increment')">Click me {{ $store.getters.getCounter}}</v-btn>
+                <v-btn dark raised @click="$store.commit('increment')">Click another test with all {{ $store.getters.getCounter}}</v-btn>
+
             </v-flex>
         </v-layout>
     </v-container>
