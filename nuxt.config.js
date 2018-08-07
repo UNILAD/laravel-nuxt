@@ -5,6 +5,11 @@ module.exports = laravelNuxt({
     modules: [],
     plugins: ['~/plugins/main.js'],
 
+    build: {
+        analyze: false,
+        maxChunkSize: 3000000
+    },
+
     head: {
         meta: [
             { charset: 'utf-8' },
