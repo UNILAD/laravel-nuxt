@@ -42,10 +42,10 @@ mix.sass(
 
 //Copying file from resource folder to public
 
-// mix.copy(
-//     'resources/assets/images',
-//     'public/assets/images'
-// );
+mix.copy(
+    'resources/assets/images',
+    'public/assets/images'
+);
 
 /*
 * ******************************************
@@ -78,38 +78,38 @@ mix.sass(
 * *********************************************
 */
 
+mix.copy(
+    'node_modules/tinymce/',
+    'public/assets/admin/js/'
+);
+
+// we are not using this utils.js anywhere
 // mix.copy(
-//     'node_modules/tinymce/',
-//     'public/assets/admin/js/'
+//     'node_modules/intl-tel-input/build/js/utils.js',
+//     'public/assets/js/utils.js'
 // );
-//
-// // we are not using this utils.js anywhere
-// // mix.copy(
-// //     'node_modules/intl-tel-input/build/js/utils.js',
-// //     'public/assets/js/utils.js'
-// // );
-//
-// mix.copy(
-//     'node_modules/intl-tel-input/build',
-//     'public/assets/admin/css/intl-tel-input'
-// );
-//
-// mix.copy(
-//     'resources/assets/scripts/vendor/',
-//     'public/assets/scripts/'
-// );
-//
+
+mix.copy(
+    'node_modules/intl-tel-input/build',
+    'public/assets/admin/css/intl-tel-input'
+);
+
+mix.copy(
+    'resources/assets/scripts/vendor/',
+    'public/assets/scripts/'
+);
+
 // /*
 // * *********************************************
 // * All fonts
 // * *********************************************
 // */
-// mix.copy(
-//     [
-//         // 'resources/assets/talvbansal/media-manager/fonts',
-//         'node_modules/bootstrap/fonts',
-//         'node_modules/font-awesome/fonts',
-//         'resources/assets/fonts'
-//     ],
-//     'public/assets/fonts/'
-// );
+mix.copy(
+    [
+        // 'resources/assets/talvbansal/media-manager/fonts',
+        'node_modules/bootstrap/fonts',
+        'node_modules/font-awesome/fonts',
+        'resources/assets/fonts'
+    ],
+    'public/assets/fonts/'
+);
