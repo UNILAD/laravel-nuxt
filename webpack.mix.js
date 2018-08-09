@@ -37,8 +37,8 @@ mix.sass(
 
 mix.js([
     'resources/assets/frontend/scripts/main.js',
-], 'public/assets/frontend/scripts/scripts.js');
-//     .sourceMaps();
+], 'public/assets/frontend/scripts/scripts.js')
+    .sourceMaps();
 
 //Copying file from resource folder to public
 
