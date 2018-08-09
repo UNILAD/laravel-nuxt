@@ -73,11 +73,6 @@ export function createRouter () {
 			path: "/",
 			component: _1d75ebf6,
 			name: "index"
-		},
-		{
-			path: "/__laravel_nuxt__",
-			component: _1d75ebf6,
-			name: "__laravel_nuxt__"
 		}
     ],
     
