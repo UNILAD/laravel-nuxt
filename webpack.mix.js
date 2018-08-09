@@ -11,16 +11,16 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js(['resources/assets/admin/js/app.js',
-        'resources/assets/admin/js/custom.js'],
-    'public/assets/admin/js'
-)
-    .sass('resources/assets/admin/scss/admin.scss',
-        'public/assets/admin/css/admin.css');
+// mix.js(['resources/assets/admin/js/app.js',
+//         'resources/assets/admin/js/custom.js'],
+//     'public/assets/admin/js'
+// )
+//     .sass('resources/assets/admin/scss/admin.scss',
+//         'public/assets/admin/css/admin.css');
 
-mix.sass('resources/assets/scss/admin.scss',
-    'public/assets/admin/css/mailer-admin.css'
-);
+// mix.sass('resources/assets/scss/admin.scss',
+//     'public/assets/admin/css/mailer-admin.css'
+// );
 
 /*
 * *********************************************
