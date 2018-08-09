@@ -6,7 +6,7 @@
 
 import 'babel-polyfill';
 
-import axios from 'axios';
+window.axios = require('axios');
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import VueRouter from 'vue-router';
