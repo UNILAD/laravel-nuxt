@@ -8,8 +8,8 @@ import 'babel-polyfill';
 
 import axios from 'axios';
 import Vue from 'vue';
-import Vuetify from 'Vuetify';
-import Vuerouter from 'vue-router';
+import Vuetify from 'vuetify';
+import VueRouter from 'vue-router';
 
 
 /*
@@ -19,7 +19,7 @@ import Vuerouter from 'vue-router';
  */
 
 Vue.use(Vuetify);
-Vue.use(Vuerouter);
+Vue.use(VueRouter);
 
 
 /*
