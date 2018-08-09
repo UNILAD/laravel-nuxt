@@ -4,13 +4,13 @@
  ********************************************************
  */
 
-import 'babel-polyfill';
+require("babel-polyfill");
 
 window.axios = require('axios');
 window.Vue = require('vue');
 window.Vuetify = require('Vuetify');
 
-import Vuerouter from 'vue-router';
+window.Vuerouter = require('vue-router');
 
 
 /*
