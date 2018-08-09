@@ -59,18 +59,18 @@ mix.copy(
 * Admin script and scss
 * *********************************************
 */
-// mix.js([
-//     'resources/assets/admin/scripts/main.js',
-// ], 'public/assets/admin/scripts/scripts.js')
-//     .sourceMaps();
-//
-// if (mix.inProduction()) {
-//     mix.version();
-// }
-//
-// if (!mix.inProduction()) {
-//     mix.webpackConfig({devtool: 'inline-source-map'})
-// }
+mix.js([
+    'resources/assets/admin/scripts/main.js',
+], 'public/assets/admin/scripts/scripts.js')
+    .sourceMaps();
+
+if (mix.inProduction()) {
+    mix.version();
+}
+
+if (!mix.inProduction()) {
+    mix.webpackConfig({devtool: 'inline-source-map'})
+}
 
 /*
 * *********************************************
