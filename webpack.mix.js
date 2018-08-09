@@ -11,16 +11,16 @@ let mix = require('laravel-mix');
  |
  */
 
-// mix.js(['resources/assets/admin/js/app.js',
-//         'resources/assets/admin/js/custom.js'],
-//     'public/assets/admin/js'
-// )
-//     .sass('resources/assets/admin/scss/admin.scss',
-//         'public/assets/admin/css/admin.css');
-//
-// mix.sass('resources/assets/scss/admin.scss',
-//     'public/assets/admin/css/mailer-admin.css'
-// );
+mix.js(['resources/assets/admin/js/app.js',
+        'resources/assets/admin/js/custom.js'],
+    'public/assets/admin/js'
+)
+    .sass('resources/assets/admin/scss/admin.scss',
+        'public/assets/admin/css/admin.css');
+
+mix.sass('resources/assets/scss/admin.scss',
+    'public/assets/admin/css/mailer-admin.css'
+);
 
 /*
 * *********************************************
@@ -42,10 +42,10 @@ mix.sass(
 
 //Copying file from resource folder to public
 
-mix.copy(
-    'resources/assets/images',
-    'public/assets/images'
-);
+// mix.copy(
+//     'resources/assets/images',
+//     'public/assets/images'
+// );
 
 /*
 * ******************************************
@@ -59,18 +59,18 @@ mix.copy(
 * Admin script and scss
 * *********************************************
 */
-mix.js([
-    'resources/assets/admin/scripts/main.js',
-], 'public/assets/admin/scripts/scripts.js')
-    .sourceMaps();
-
-if (mix.inProduction()) {
-    mix.version();
-}
-
-if (!mix.inProduction()) {
-    mix.webpackConfig({devtool: 'inline-source-map'})
-}
+// mix.js([
+//     'resources/assets/admin/scripts/main.js',
+// ], 'public/assets/admin/scripts/scripts.js')
+//     .sourceMaps();
+//
+// if (mix.inProduction()) {
+//     mix.version();
+// }
+//
+// if (!mix.inProduction()) {
+//     mix.webpackConfig({devtool: 'inline-source-map'})
+// }
 
 /*
 * *********************************************
@@ -78,38 +78,38 @@ if (!mix.inProduction()) {
 * *********************************************
 */
 
-mix.copy(
-    'node_modules/tinymce/',
-    'public/assets/admin/js/'
-);
-
-// we are not using this utils.js anywhere
 // mix.copy(
-//     'node_modules/intl-tel-input/build/js/utils.js',
-//     'public/assets/js/utils.js'
+//     'node_modules/tinymce/',
+//     'public/assets/admin/js/'
 // );
-
-mix.copy(
-    'node_modules/intl-tel-input/build',
-    'public/assets/admin/css/intl-tel-input'
-);
-
-mix.copy(
-    'resources/assets/scripts/vendor/',
-    'public/assets/scripts/'
-);
-
-/*
-* *********************************************
-* All fonts
-* *********************************************
-*/
-mix.copy(
-    [
-        // 'resources/assets/talvbansal/media-manager/fonts',
-        'node_modules/bootstrap/fonts',
-        'node_modules/font-awesome/fonts',
-        'resources/assets/fonts'
-    ],
-    'public/assets/fonts/'
-);
+//
+// // we are not using this utils.js anywhere
+// // mix.copy(
+// //     'node_modules/intl-tel-input/build/js/utils.js',
+// //     'public/assets/js/utils.js'
+// // );
+//
+// mix.copy(
+//     'node_modules/intl-tel-input/build',
+//     'public/assets/admin/css/intl-tel-input'
+// );
+//
+// mix.copy(
+//     'resources/assets/scripts/vendor/',
+//     'public/assets/scripts/'
+// );
+//
+// /*
+// * *********************************************
+// * All fonts
+// * *********************************************
+// */
+// mix.copy(
+//     [
+//         // 'resources/assets/talvbansal/media-manager/fonts',
+//         'node_modules/bootstrap/fonts',
+//         'node_modules/font-awesome/fonts',
+//         'resources/assets/fonts'
+//     ],
+//     'public/assets/fonts/'
+// );
