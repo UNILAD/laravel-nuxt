@@ -17,7 +17,7 @@ let mix = require('laravel-mix');
 // )
 //     .sass('resources/assets/admin/scss/admin.scss',
 //         'public/assets/admin/css/admin.css');
-
+//
 // mix.sass('resources/assets/scss/admin.scss',
 //     'public/assets/admin/css/mailer-admin.css'
 // );
@@ -35,10 +35,10 @@ mix.sass(
     })
     .sourceMaps();
 
-mix.js([
-    'resources/assets/frontend/scripts/main.js',
-], 'public/assets/frontend/scripts/scripts.js')
-    .sourceMaps();
+// mix.js([
+//     'resources/assets/frontend/scripts/main.js',
+// ], 'public/assets/frontend/scripts/scripts.js')
+//     .sourceMaps();
 
 //Copying file from resource folder to public
 
@@ -59,18 +59,18 @@ mix.copy(
 * Admin script and scss
 * *********************************************
 */
-mix.js([
-    'resources/assets/admin/scripts/main.js',
-], 'public/assets/admin/scripts/scripts.js')
-    .sourceMaps();
-
-if (mix.inProduction()) {
-    mix.version();
-}
-
-if (!mix.inProduction()) {
-    mix.webpackConfig({devtool: 'inline-source-map'})
-}
+// mix.js([
+//     'resources/assets/admin/scripts/main.js',
+// ], 'public/assets/admin/scripts/scripts.js')
+//     .sourceMaps();
+//
+// if (mix.inProduction()) {
+//     mix.version();
+// }
+//
+// if (!mix.inProduction()) {
+//     mix.webpackConfig({devtool: 'inline-source-map'})
+// }
 
 /*
 * *********************************************
