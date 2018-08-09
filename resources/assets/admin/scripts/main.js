@@ -7,10 +7,9 @@
 import 'babel-polyfill';
 
 window.axios = require('axios');
-window.Vue = require('vue');
-window.Vuetify = require('Vuetify');
-
-import Vuerouter from 'vue-router';
+import Vue from 'vue';
+import Vuetify from 'vuetify';
+import VueRouter from 'vue-router';
 
 /*
  ********************************************************
@@ -19,7 +18,7 @@ import Vuerouter from 'vue-router';
  */
 
 Vue.use(Vuetify);
-Vue.use(Vuerouter);
+Vue.use(VueRouter);
 
 
 /*
@@ -56,7 +55,7 @@ import {store} from './store/index';
 
 import {routes} from './routes';
 
-const router = new Vuerouter({
+const router = new VueRouter({
     mode: 'history',
     routes
 });

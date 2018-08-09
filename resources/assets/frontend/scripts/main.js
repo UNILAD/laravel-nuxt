@@ -66,7 +66,7 @@ require('./filters/filters');
  ********************************************************
  */
 
-const router = new Vuerouter({
+const router = new VueRouter({
     mode: 'history',
     routes
 });
