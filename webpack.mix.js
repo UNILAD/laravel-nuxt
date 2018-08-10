@@ -33,12 +33,10 @@ mix.sass(
     .options({
         processCssUrls: false,
     })
-    .sourceMaps();
 
 mix.js([
     'resources/assets/frontend/scripts/main.js',
 ], 'public/assets/frontend/scripts/scripts.js')
-    .sourceMaps();
 
 //Copying file from resource folder to public
 
@@ -59,7 +57,6 @@ mix.js([
 mix.js([
     'resources/assets/admin/scripts/main.js',
 ], 'public/assets/admin/scripts/scripts.js')
-    .sourceMaps();
 
 if (mix.inProduction()) {
     mix.version();
