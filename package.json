@@ -25,6 +25,7 @@
         "font-awesome": "^4.7.0",
         "global": "^4.3.2",
         "glyphicons-halflings": "^1.9.1",
+        "gulp": "^3.9.1",
         "laravel-nuxt": "^1.0.0",
         "material-design-icons-iconfont": "^3.0.3",
         "select2": "^4.0.6-rc.1",
